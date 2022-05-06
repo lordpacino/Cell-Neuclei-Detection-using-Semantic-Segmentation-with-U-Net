@@ -2,13 +2,13 @@
 
 
 ## 1. Summary
-The project's goal is to successfully recognise cell nuclei from biomedical images. Because cell nuclei vary in shape and size, semantic segmentation is the most effective method for detecting them. For this purpose, a deep learning model is developed and deployed. The model has been trained using the well-known dataset from (https://www.kaggle.com/c/data-science-bowl-2018).
+The project's goal is to successfully recognise cell nuclei from biomedical images. Because cell nuclei vary in shape and size, semantic segmentation is the most effective method for detecting them. For this purpose, a deep learning model is developed and deployed. The model has been trained using the well-known dataset from https://www.kaggle.com/c/data-science-bowl-2018.
 
 ## 2. IDE and Framerowk
 The project is built with Spyder as the main IDE. The main frameworks used in this project are TensorFlow, Numpy, Matplotlib, OpenCV and Scikit-learn.
 
 ## 3. Methodology
-The methodology is inspired by a documentation available in the official TensorFlow website. The documentation can be referred at this link provided. (https://www.tensorflow.org/tutorials/images/segmentation).
+The methodology is inspired by a documentation available in the official TensorFlow website. The documentation can be referred at this link provided https://www.tensorflow.org/tutorials/images/segmentation .
 
 ### 3.1. Input Pipeline
 The dataset files are organised into a train folder for training data and a test folder for testing data, with pictures for inputs and image masks for labels. Feature scaling is applied to the input photos as a preprocessing step. The labels are preprocessed to have binary values of 0 and 1. There is no data augmentation performed to the dataset. The train data is divided into train-validation sets in an 80:20 ratio.
